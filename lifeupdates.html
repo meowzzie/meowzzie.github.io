@@ -5,6 +5,11 @@
 <head>
     <title>haiii :3</title> 
     <style> 
+        @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #232323;
+  }
+}
         body {
             background-color: aliceblue;
             font-family: 'Courier New', Courier, monospace;
@@ -31,6 +36,9 @@
             display: block;
         }
     </style>
+<script>
+    const vampire = window.matchMedia("(prefers-color-scheme:dark)").matches;
+</script>
 </head>
 <!-- lazily copied stylesheet-->
 <body>
